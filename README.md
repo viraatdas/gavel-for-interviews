@@ -1,4 +1,16 @@
+# Gavel for interviews
+
+This project is meant to repurpose the original Gavel project to be more suitable for interviews. Usage of this is ideal whenever you have a group of interviwees and interviewers and you are trying to get a good sense of how to rank candidates and get the best one. The following part of the README is from the original project and should be read carefully before using this project. 
+
+
+
+-----
+
+
+
 <img src="https://raw.githubusercontent.com/anishathalye/gavel/docs/banner.png" width="450" alt="Gavel banner">
+
+
 
 **Gavel** is a project expo judging system.
 
