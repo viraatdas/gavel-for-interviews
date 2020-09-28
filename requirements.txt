@@ -1,4 +1,5 @@
 amqp==2.5.2
+Crypto
 billiard==3.6.1.0
 celery==4.4.0
 certifi==2019.11.28

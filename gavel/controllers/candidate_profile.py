@@ -17,6 +17,6 @@ from candidate_preprocessing.preprocess_candidates import create_dictionary_of_c
 import os
 @app.route('/<interviewer_name>/<candidate>')
 def render_candidate(interviewer_name, candidate):
-    candidates_by_interviewers = create_dictionary_of_candidates()
+    candidates_by_interviewers = create_dictionary_of_candidates("candidate_preprocessing/candidate_profile.pkl")
     return candidates_by_interviewers[interviewer_name][candidate]
     # return render_template("candidate.html", interviewer_name=interviewer_name, candidate=candidate)
